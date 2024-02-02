@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: white;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.login-page{
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+label{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+.login-button{
+    font-family: 'Overpass', sans-serif;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    outline: none;
+    border: none;
+}
+.register-button{
+    font-family: 'Overpass', sans-serif;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: red;
+    outline: none;
+    border: none;
+}
+.login-input{
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+    height: 35px;
+    width: 250px;
+    border: 0;
+    color: white;
+    background-color: transparent;
+    border-bottom: white solid 1px;
+}
+input:focus{
+    outline: none;
+}
+.icon{
+    position: relative;
+    left: 0px;
+    top: 42px;
+}
+

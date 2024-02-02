@@ -1,0 +1,19 @@
+.register-page{
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.register-input{
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+    height: 35px;
+    width: 250px;
+    border: 0;
+    color: white;
+    background-color: transparent;
+    border-bottom: white solid 1px;
+}

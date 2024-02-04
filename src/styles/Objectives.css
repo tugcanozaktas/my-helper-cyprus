@@ -1,0 +1,12 @@
+*{
+    font-family: 'Overpass', sans-serif;
+}
+
+.objectives-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    color: white;
+}
